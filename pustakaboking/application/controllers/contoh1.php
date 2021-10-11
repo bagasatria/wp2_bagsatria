@@ -1,11 +1,8 @@
 <?php
-class contoh1 estends CI_controller
+class Latihan1 extends CI_Controller
 {
-    public function index()
-    {
-        echo "<h1>perkenalkan</h1>";
-        echo "nama saya bagasatria
-        saya tinggal di bogpr hobby tidur";
-    }
+ public function index()
+ {
+ echo "Selamat Datang.. selamat belajar Web Programming";
+ }
 }
-?>
