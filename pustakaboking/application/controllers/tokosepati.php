@@ -1,16 +1,8 @@
 <?php
-class Matakuliah extends CI_Controller
+class Tokosepatu extends CI_Controller
 {
-	function __construct ()
-	{
-		parent::__construct();
-		$this->load->helper('url');
-		$this->load->model('bagasshoes_model');
-	}
 	public function index(){
 		$this->load->view('view-form-sepatu');
-		$this->load->library('form_validation');
-
 	}
 
 	public function cetak()

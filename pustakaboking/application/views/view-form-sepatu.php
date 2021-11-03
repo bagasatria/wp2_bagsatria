@@ -7,7 +7,7 @@
     <br><br><br>
     <center> 
         <?php echo validation_errors(); ?>
-        <form action="<?= base_url('tokosepatu/cetak'); 
+        <form action="<?= base_url('Matakuliah/cetak'); 
         ?>" method="post"> 
             <table bgcolor ='#857f7f' width='290px'> 
                 <tr> 

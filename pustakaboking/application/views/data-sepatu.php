@@ -52,8 +52,7 @@
             </tr> 
             <tr> 
                 <td colspan="3" align="center"> 
-                    <a href="<?= base_url('tokosepatu'); 
-                ?>">Kembali</a> 
+                    <a href="<?= base_url('Matakuliah'); ?>">Kembali</a> 
                 </td>
                 </tr> 
                 <br><br>
